@@ -46,7 +46,22 @@ git config – global user.email 'tu@email.com'
 
 Seguramente nos pedirá la propia terminal, nuestra contraseña también con esto ya tendríamos el terminal listo para nuestro primer repositorio.
 
-### 
+### Comandos básicos terminal
+
+```bash
+** Terminal Git-Bash **
+// Cambiar de directorio (carpeta)
+cd nombre-del-directorio
+
+//Volver hacia atras en el directorio (carpeta anterior)
+cd ..
+
+//Crear directorio (carpeta)
+mkdir nombre-de-la-carpeta
+
+//Borar directorio (carpeta)
+rmdir  nombre-de-la-carpeta
+```
 
 
 
