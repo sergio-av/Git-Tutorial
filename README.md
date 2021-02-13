@@ -111,8 +111,10 @@ rmdir  nombre-de-la-carpeta
 ```bash
 ** Terminal Git-Bash **
 ** Las ramas son las pestañas (vamos a llamarlas así) donde vamos a realizar nuestro trabajo.
-
-El proyecto principal siempre estara en master, esta es la rama que se crea inicial con el repositorio, de esta rama se crearan las damas ramas que seran partes de la division del proyecto, que al juntar de nuevo todas las ramas obtendremos el proyecto completo. **
+El proyecto principal siempre estara en master, 
+esta es la rama que se crea inicial con el repositorio, 
+de esta rama se crearan las damas ramas que seran partes de la division del proyecto, 
+que al juntar de nuevo todas las ramas obtendremos el proyecto completo. **
 
 // Crear una rama 
 git branch nombre-de-la-rama
