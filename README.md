@@ -46,22 +46,50 @@ git config – global user.email 'tu@email.com'
 
 Seguramente nos pedirá la propia terminal, nuestra contraseña también con esto ya tendríamos el terminal listo para nuestro primer repositorio.
 
-### Comandos básicos terminal
 
-```bash
-** Terminal Git-Bash **
-// Cambiar de directorio (carpeta)
-cd nombre-del-directorio
 
-//Volver hacia atras en el directorio (carpeta anterior)
-cd ..
+### Primer repositorio (proyecto) en GitHub
 
-//Crear directorio (carpeta)
-mkdir nombre-de-la-carpeta
+Lo primero será crear el repositorio en la web [GitHub](https://docs.github.com/es/github), desplazándonos hacia la pestaña repositorio de nuestro perfil y una vez en ella hacer click en el botón New.
 
-//Borar directorio (carpeta)
-rmdir  nombre-de-la-carpeta
-```
+[![nuevo-Repositorio.jpg](https://i.postimg.cc/s2vF3mYM/nuevo-Repositorio.jpg)](https://postimg.cc/Y4KD31y7)
+
+
+
+A continuación:
+
+- Daremos nombre al repositorio
+
+- Seleccionaremos su privacidad 
+
+- Crearemos una breve descripción (opcional)
+
+- Como buena practica siempre añadiremos el Readme, marcando la casilla "add Readme".
+
+  
+
+  [![imagen-2021-02-13-001418.png](https://i.postimg.cc/V6gX4qhF/imagen-2021-02-13-001418.png)](https://postimg.cc/WFDD1kTD)
+
+  
+
+  Con el repositorio ya creado solo queda clonarlo (descargarlo e instarlo) en nuestro repositorio local (la carpeta que deseemos utilizar) para lo cual vamos a utilizar la terminal Git Bash:
+
+  - Comenzamos clonando el repositorio desde la web
+
+    [![imagen-2021-02-13-002705.png](https://i.postimg.cc/Gp1M5jM0/imagen-2021-02-13-002705.png)](https://postimg.cc/mP8Nc7fV)
+
+  - Luego Abrimos la terminal en la carpeta que queramos iniciar el proyecto 
+
+    ```bash
+    //Para clonar el repositorio y poder empezar a trabajar con el:
+    git clone el-url-del-repositorio  //En bash se pega con Alt + Insert 
+    ```
+
+    
+
+  Con esto ya tendríamos nuestro repositorio de GitHub listo para poder trabajar en el.
+
+### 
 
 
 
