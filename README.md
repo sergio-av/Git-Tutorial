@@ -89,7 +89,62 @@ A continuación:
 
   Con esto ya tendríamos nuestro repositorio de GitHub listo para poder trabajar en el.
 
-### 
+### Comandos básicos terminal
+
+```bash
+** Terminal Git-Bash **
+// Cambiar de directorio (carpeta)
+cd nombre-del-directorio
+
+//Volver hacia atras en el directorio (carpeta anterior)
+cd ..
+
+//Crear directorio (carpeta)
+mkdir nombre-de-la-carpeta
+
+//Borar directorio (carpeta)
+rmdir  nombre-de-la-carpeta
+```
+
+### Comandos básicos Git
+
+```bash
+** Terminal Git-Bash **
+** Las ramas son las pestañas (vamos a llamarlas así) donde vamos a realizar nuestro trabajo.
+
+El proyecto principal siempre estara en master, esta es la rama que se crea inicial con el repositorio, de esta rama se crearan las damas ramas que seran partes de la division del proyecto, que al juntar de nuevo todas las ramas obtendremos el proyecto completo. **
+
+// Crear una rama 
+git branch nombre-de-la-rama
+
+// Crear una rama y moverse a ella 
+git branch -m nombre-de-la-rama
+
+// Moverse entre ramas
+git mkdir nombre-de-la-rama
+
+// Mirar en la rama en la que nos encontramos
+git branch
+
+** Para subir los archivos o cambios realizados, hacemos lo que se conoce como 
+comitear los cambios, comenzamos con: **
+
+//Añadir archvicos o cambios al repositorio local
+git add nombre-del-archivo 
+
+//Realizar commit, aqui escribimos un breve mensaje con lo que se ha realizado //en este archivo o modificacion
+git commit -m "Mensaje correspondiente comillas obligatorias"
+
+// Subir los cambios o git push "origin" es nuestro repositorio local donde se 
+// encuentran los cambios u archivos que deseamos subir segido de la rama.
+git push origin nombre-de-la-rama
+
+// Descargarse los cambios realizados en el repositorio, ponemos el nombre
+// seguido de la rama en la que esten los cambios
+git pull origin nombre-de-la-rama
+
+
+```
 
 
 
